@@ -32,6 +32,8 @@ function transformStateWithClones(state, actions) {
       }
 
       default: {
+        // Log a warning for unrecognized action types
+        // console.warn(`Unrecognized action type: ${action.type}`);
       }
     }
 
